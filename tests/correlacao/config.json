@@ -14,46 +14,19 @@
       "id": "positivo",
       "label": "Exemplo linear positivo",
       "description": "Cobertura de seguimento e desfecho melhorando juntos.",
-      "text": "UF	Cobertura de seguimento (%)	Adesão ao protocolo (%)
-BA	58	61
-SP	81	82
-MG	73	75
-PE	49	53
-RS	88	91
-GO	67	69
-CE	55	59
-PR	79	81
-"
+      "text": "UF\tCobertura de seguimento (%)\tAdesão ao protocolo (%)\nBA\t58\t61\nSP\t81\t82\nMG\t73\t75\nPE\t49\t53\nRS\t88\t91\nGO\t67\t69\nCE\t55\t59\nPR\t79\t81"
     },
     {
       "id": "negativo",
       "label": "Exemplo linear negativo",
       "description": "Maior atraso associado a menor cobertura de alta oportuna.",
-      "text": "Hospital	Atraso médio para procedimento (dias)	Alta em até 72h (%)
-A	2	91
-B	3	87
-C	5	80
-D	7	75
-E	9	66
-F	11	58
-G	13	49
-H	15	43
-"
+      "text": "Hospital\tAtraso médio para procedimento (dias)\tAlta em até 72h (%)\nA\t2\t91\nB\t3\t87\nC\t5\t80\nD\t7\t75\nE\t9\t66\nF\t11\t58\nG\t13\t49\nH\t15\t43"
     },
     {
       "id": "outlier",
       "label": "Exemplo com outlier",
       "description": "Mostra como um ponto extremo pode alterar o Pearson.",
-      "text": "UF	Taxa de seguimento	Mortalidade hospitalar
-BA	41	3.1
-SP	56	3.9
-MG	49	3.5
-PE	39	2.8
-RS	61	4.1
-GO	46	3.2
-AM	44	3.3
-XX	92	1.7
-"
+      "text": "UF\tTaxa de seguimento\tMortalidade hospitalar\nBA\t41\t3.1\nSP\t56\t3.9\nMG\t49\t3.5\nPE\t39\t2.8\nRS\t61\t4.1\nGO\t46\t3.2\nAM\t44\t3.3\nXX\t92\t1.7"
     }
   ]
 }
